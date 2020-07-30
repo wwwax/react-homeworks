@@ -9,3 +9,9 @@ html {
         Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #fff;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
