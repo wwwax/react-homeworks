@@ -1,0 +1,22 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.statsTitle {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.statsList {
+    display: flex;
+}
+
+.statsListItem {
+    width: 25%;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
