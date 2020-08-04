@@ -19,6 +19,16 @@
     border-radius: 50%;
 }
 
+.online {
+    composes: isOnline;
+    background-color: green;
+}
+
+.offline {
+    composes: isOnline;
+    background-color: red;
+}
+
 .avatar {
     border-radius: 15px;
 }
