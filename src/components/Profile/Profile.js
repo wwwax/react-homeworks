@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './Profile.module.css';
 
 const Profile = ({ user }) => {
@@ -27,6 +28,10 @@ const Profile = ({ user }) => {
             </div>
         </div>
     );
+};
+
+Profile.propTypes = {
+    user: PropTypes.object.isRequired,
 };
 
 export default Profile;

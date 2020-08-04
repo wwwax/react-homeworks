@@ -7,6 +7,7 @@
 .statsTitle {
     padding: 20px 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .statsList {
@@ -16,6 +17,8 @@
 .statsListItem {
     width: 25%;
     padding: 10px 0;
+    display: flex;
+    flex-direction: column;
     color: #fff;
     font-weight: 700;
     text-align: center;

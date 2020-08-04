@@ -10,6 +10,7 @@ const App = () => {
         <div className={styles.container}>
             <h2 className={styles.taskName}>Task-01</h2>
             <Profile user={user} />
+            <hr style={{ marginTop: '20px' }} />
 
             <h2 className={styles.taskName}>Task-02</h2>
             <Statistics stats={stats} />
