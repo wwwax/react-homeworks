@@ -1,0 +1,24 @@
+table {
+    margin: 0 auto 40px;
+}
+
+thead {
+    text-transform: uppercase;
+    color: #b33333;
+}
+
+td {
+    font-weight: 400;
+}
+
+table,
+th,
+td {
+    border: 1px solid #045e22;
+    /* border-collapse: collapse; */
+}
+
+th,
+td {
+    padding: 10px;
+}
