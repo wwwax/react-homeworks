@@ -12,6 +12,8 @@ function getRandomColor() {
 }
 
 const Statistics = ({ title, stats }) => {
+    const count = 100 / stats.length;
+
     return (
         <div className={styles.container}>
             {title && <h2 className={styles.statsTitle}>{title}</h2>}
@@ -19,7 +21,7 @@ const Statistics = ({ title, stats }) => {
                 {stats.map((item) => (
                     <div
                         className={styles.statsListItem}
-                        style={{ backgroundColor: getRandomColor() }}
+                        style={{ backgroundColor: getRandomColor(), width: `${count}%` }}
                         key={item.id}>
                         <span>{item.label}</span>
                         <span>{item.percentage}%</span>
